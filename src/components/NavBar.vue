@@ -11,7 +11,7 @@
 
     </nav> -->
 
-<nav class="navbar">
+<!-- <nav class="navbar">
     <a href="#" class="navbar-logo">XB</a>
     <ul class="navbar-menu">
       <li><a href="/">Home</a></li>
@@ -26,25 +26,93 @@
       <li><a href="testimonials">Testimonials</a></li>
       <li><a href="projects">Projects</a></li>
       <li><a href="contact">Contact</a></li>
-    </ul>
+    </ul> -->
 
-  <!-- <ul class="navbar-mobile">
-    <li><a href="/">Home</a></li>
-    <li><a href="about">About</a></li>
-    <li class="navbar-dropdown">
-      <a href="#">Resume</a>
-      <div class="navbar-dropdown-content">
-        <a href="education">Education</a>
-        <a href="skills">Skills</a>
+  <nav class="navbar">
+  <div class="container-fluid">
+    <a href="/" class="navbar-logo">XB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resume
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="education">Education</a></li>
+            <li><a class="dropdown-item" href="skills">Skills</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a href="/" class="navbar-logo">XB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <a href="/" class="navbar-logo">XB</a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-    </li>
-    <li><a href="testimonials">Testimonials</a></li>
-      <li><a href="projects">Projects</a></li>
-    <li><a href="contact">Contact</a></li>
-  </ul> -->
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resume
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="education">Education</a></li>
+            <li><a class="dropdown-item" href="skills">Skills</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
 
 
-  </nav>
+  <!-- </nav> -->
 
 
 
@@ -59,13 +127,12 @@ export default {
 </script>
 <style scoped>
     .navbar {
-      background-color:rgba(222, 84, 142, 1);
+      background-color:rgba(222, 84, 142, 1) !important;
       height: 100px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 0 50px;
-      /* box-shadow: 16px 8px 16px 16px rgba(222, 84, 142, 1); */
     }
 
     .navbar-logo {
@@ -73,6 +140,10 @@ export default {
       font-size: 30px;
       text-decoration: none;
       font-weight: bold;
+    }
+
+    .offcanvas-header, .offcanvas-body{      
+      background-color:rgba(222, 84, 142, 1) !important;
     }
 
     .navbar-menu {
@@ -205,7 +276,7 @@ export default {
   }
 } */
 
-/* @media (max-width: 300px) {
+@media (max-width: 300px) {
   .navbar {
     flex-direction: column;
     height: auto;
@@ -224,5 +295,5 @@ export default {
     font-size: 14px;
     padding: 6px;
   }
-} */
+}
 </style>

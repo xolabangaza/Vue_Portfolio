@@ -17,3 +17,18 @@ export default {
   props: ["testimonial"],
 };
 </script>
+
+<style scoped>
+ @media screen and (max-width: 700px) {
+    .container{
+      margin: 0;
+      margin-inline-start: 10px;
+      margin-inline-end: 30px
+    }
+
+    .card img{
+      width: 100%;
+      margin-block: 20px;
+    }
+}
+</style>

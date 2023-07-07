@@ -1,5 +1,5 @@
 <template>
-  <router-link
+  <div
     :to="{ title: 'project', params: { id: project } }"
     class="card my-3">
       <img :src="project.image" :alt="project.title" />
@@ -13,7 +13,7 @@
         <a :href="project.github" class="btn" target="_blank"> Github</a>
       </div>
     
-  </router-link>
+  </div>
 </template>
 
 <script>

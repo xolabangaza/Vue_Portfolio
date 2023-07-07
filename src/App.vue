@@ -23,8 +23,15 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 #app{
   background-color: #CA2072;
 }
+
+@media screen and (max-width: 700px){
+    *{
+      overflow: visible;
+    } 
+  }
 </style>

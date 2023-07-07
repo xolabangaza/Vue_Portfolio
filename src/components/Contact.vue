@@ -117,7 +117,7 @@ p{
 }
 
 /* Media Queries */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .contact {
     width: 80%;
   }
@@ -147,6 +147,23 @@ p{
   .content {
     display: none;
   }
+} */
+
+@media screen and (max-width: 700px) {
+    .content{
+        display: none;
+    }
+    .contact{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+    }
+
+     .message{
+        width: 200px;
+     }
 }
     
 </style>

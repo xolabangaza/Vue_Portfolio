@@ -4,7 +4,7 @@
       About Me
     </h2>
     <hr/>
-    <div class="d-flex justify-content-center m-auto">
+    <div class="d-flex justify-content-center m-auto picture">
       <img
         src="https://i.postimg.cc/Bv0QRfh3/C12-C1-Xola-Bangaza-2.jpg"
         alt="about"
@@ -71,5 +71,11 @@ img {
 }
 hr {
   color: aliceblue;
+}
+
+@media screen and (max-width: 700px){
+  .picture img{
+    width: 270px;
+  }
 }
 </style>

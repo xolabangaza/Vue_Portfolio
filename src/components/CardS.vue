@@ -19,3 +19,11 @@ export default {
   props: ["skill"],
 };
 </script>
+
+<style scoped>
+  @media screen and (max-width: 700px) {
+    .container{
+      margin-inline-start: 20px;
+    }
+}
+</style>

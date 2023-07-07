@@ -35,9 +35,6 @@ export default {
         text-align: center;
 
       }
- /* .icon{
-  background-color: rgb(245, 124, 169);
-  padding:1rem; */
   
      
  .copyright{
