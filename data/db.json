@@ -1,0 +1,221 @@
+{
+    "skills": [
+            {
+              "id":"1",
+              "lang": "HTML",
+              "image":"https://i.postimg.cc/R0bDJ1BM/html.png"
+            },
+            {
+              "id":"2",
+              "lang": "CSS",
+              "image":"https://i.postimg.cc/qM8SDC8L/css.png"
+            },
+            {
+              "id":"3",
+              "lang": "JAVASCRIPT",
+              "image":"https://i.postimg.cc/vHdSnHp6/java-script.png"
+            },
+            {
+              "id":"4",
+              "lang": "BOOTSTRAP",
+              "image":"https://i.postimg.cc/pLvbPB24/bootstrap.png"
+            },
+            {
+              "id":"5",
+              "lang": "VUEJS",
+              "image":"https://i.postimg.cc/C5JDdN37/vue.jpg"
+            }
+    ],
+    
+    
+    "educations": [
+            {
+              "date": "2018",
+              "title": "Grade 8",
+             "place": "Harry Gwala"
+            },
+            {
+              "date": "2019",
+              "title": "Grade 9",
+              "place": "Harry Gwala"
+            },
+            {
+              "date": "2020",
+              "title": "Grade 10",
+              "place": "Harry Gwala"
+            },
+            {
+              "date": "2021",
+              "title": "Grade 11",
+              "place":"Harry Gwala"
+            },
+            {
+              "date": "2022",
+              "title": "Grade 12",
+              "place": "Harry Gwala"
+            },
+            {
+              "date": "2023",
+              "title": "Student",
+              "place": "Life Choices"
+            }
+          
+      ],
+        
+
+      "projects": [
+            {
+              "id": "1",
+              "image": "https://i.postimg.cc/d0PWfWxH/Screenshot-2023-07-06-090001.png",
+              "title":"To do list",
+              "desc": "",
+              "languages": "HTML, CSS, JavaScript",
+              "netlify":"https://listt.netlify.app/",
+              "github":"https://github.com/xolabangaza/To-Do-list",
+              "year": 2023
+            },
+            {
+              "id":"2",
+              "title": "Temperature converter",
+              "image": "https://i.postimg.cc/mDV8tT2J/Screenshot-2023-07-06-085850.png",
+              "desc": "",
+              "languages": "HTML, CSS, JavaScript",
+              "netlify":"https://sinayes-temperature-converter.netlify.app/",
+              "github":"https://github.com/xolabangaza/Temperature-converter",
+              "year": 2023
+            },
+            {
+              "id":"3",
+              "title": "Group Project",
+              "image": "https://i.postimg.cc/vTWV6L0H/Screenshot-2023-07-06-111559.png",
+              "desc": "",
+              "languages": "HTML, CSS",
+              "netlify":"https://first-group-project.netlify.app",
+              "github":"https://github.com/Abenathi201/Group-Exercise",
+              "year": 2023
+            },
+            {
+              "id": "4",
+              "image": "https://i.postimg.cc/GhGQkv4D/Screenshot-2023-07-06-111643.png",
+              "title":"Class list",
+              "desc": "",
+              "languages": "HTML, CSS",
+              "netlify": "https://xolabangaza-list.netlify.app",
+              "github":"https://github.com/xolabangaza/C12-list",
+              "year": 2023
+            },
+            {
+              "id":"5",
+              "title": "Portfolio",
+              "image": "https://i.postimg.cc/gJnZDLK8/Screenshot-2023-07-06-112149.png",
+              "desc": "",
+              "languages": "HTML, CSS, Bootstrap",
+              "netlify":"https://xolabangaza.netlify.app/",
+              "github":"https://github.com/xolabangaza/End-of-module",
+              "year": 2023
+            },
+            {
+              "id":"6",
+              "title": "BMI Converter",
+              "image": "https://i.postimg.cc/nLV7XPjd/Screenshot-2023-07-06-112223.png",
+              "desc": "",
+              "languages": "HTML, CSS, JavaScript",
+              "netlify":"https://sinaye-bmi-calculator.netlify.app/",
+              "github":"https://github.com/xolabangaza/JS-BMI",
+              "year": 2023
+            },
+            {
+              "id": "7",
+              "image": "https://i.postimg.cc/wjQLTpvy/Screenshot-2023-07-06-112413.png",
+              "title":"Calculator",
+              "desc": "",
+              "languages": "HTML, CSS, JavaScript",
+              "netlify":"https://xolas-calculator.netlify.app/",
+              "github":"https://github.com/xolabangaza/JS-cal",
+              "year": 2023
+            },
+            {
+              "id":"8",
+              "title": "XB Hoody store",
+              "image": "https://i.postimg.cc/DfbRmjKd/Screenshot-2023-07-06-112845.png ",
+              "desc": "",
+              "languages": "HTML, CSS, JavaScript",
+              "netlify":"https://xb-hoody-clothing-store.netlify.app/",
+              "github":"https://github.com/xolabangaza/JS-End-of-Module",
+              "year": 2023
+            },
+            {
+              "id":"9",
+              "title": "Sinaye Book store",
+              "image": "https://i.postimg.cc/L6t73J5J/Screenshot-2023-07-06-113013.png",
+              "desc": "",
+              "languages": "HTML, CSS, JavaScript",
+              "netlify":"https://sinayes-book-store.netlify.app/",
+              "github":"https://github.com/xolabangaza/E-Commerce",
+              "year": 2023
+            }
+          ],
+  
+     "testimonials": [
+           {
+            "id": "1",
+            "image": "https://i.postimg.cc/CLT62sFH/C12_Abdoelmaaliek_Samaai_(1).jpg",
+            "title":"Abdoelmaaliek Sammai",
+            "desc": "Xola Bangaza is a very quiet person ,friendly person. She is not afraid to ask advice from her peers. She is always open to ideas and she doesn't get distracted easy and know what she want.",
+            "year": 2023
+          },
+          {
+            "id":"2",
+            "title": "Abenathi Sindaphi",
+            "image": "https://i.postimg.cc/J0hSz123/C12_C2_Abenathi_Sindapi_(2).jpg",
+            "desc": "She is a great time leader and makes sure that I complete my part in a project.",
+            "year": 2023
+          },
+          {
+            "id":"3",
+            "title": "Cheslyn Herman",
+            "image": "https://i.postimg.cc/1X67tfKq/C12_Cheslyn_Herman_(1).jpg",
+            "desc": "She makes sure everything is done on time and helps find missing details.",
+            "year": 2023
+          },
+          {
+            "id":"4",
+            "title": "Okuhle Gxothiwe",
+            "image": "https://i.postimg.cc/bNsKXwbp/C12_Okuhle_Gwotiwe_(1).jpg",
+            "desc": "I enjoy working and how creative she is.",
+            "year": 2023
+          },
+          {
+            "id":"5",
+            "title": "Sisipho Pepengweni",
+            "image": "https://i.postimg.cc/xd4f24C4/IMG_3453_(1).jpg",
+            "desc": "Xola is a great designer and she make it fun working with her.",
+            "year": 2023
+          },
+          {
+            "id":"6",
+            "title": "Sidwell Batyi",
+            "image": "https://i.postimg.cc/9fnGYv8M/C12-C1-Sidwell-Batyi-1.jpg",
+            "desc": "Xola is a passionate young and vibrant person that likes challenges. She works well with others and posses great leadership qualities",
+            "year": 2023
+
+          },
+          {
+            "id":"6",
+            "title": "Samkelo Mpokela",
+            "image": "https://i.postimg.cc/65xmk5nC/C12-Samkelo-Mpokela-Class1-1.jpg",
+            "desc": "Xola is a passionate young and vibrant person that likes challenges. She works well with others and posses great leadership qualities",
+            "year": 2023
+            
+          },
+          {
+            "id":"6",
+            "title": "Mufuniwa Mbedzi",
+            "image": "https://i.postimg.cc/X79rQxkn/C12-Mufuniwa-Mbedzi-1.jpg",
+            "desc": "Xola is a very friendly person , she works well with others",
+            "year": 2023
+            
+          }
+
+     ]
+}
